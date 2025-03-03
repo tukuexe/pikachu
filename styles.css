@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(to right, #ffcc00, #ff6600);
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.pikachu {
+    position: absolute;
+    bottom: 10%;
+    left: -200px;
+    width: 150px;
+}
+
+.pikachu img {
+    width: 100%;
+}
+
+/* Animation */
+@keyframes walk {
+    0% {
+        left: -200px;
+    }
+    100% {
+        left: 100vw;
+    }
+}
